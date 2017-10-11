@@ -1,7 +1,7 @@
 <?php
 /**
- * Abstraction layers for coding WordPress admin UIs
- * This works only to create the admin pages. It does not (yet) create/save settings, inputs, etc.
+ * Abstraction classes for coding WordPress admin UIs
+ * This works only to create the admin pages. It does not (yet?) create/save settings, inputs, etc.
  *
  * @package   Simple Admin UI
  * @author    Ren Ventura <https://renventura.com>
