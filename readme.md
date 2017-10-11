@@ -16,7 +16,7 @@ __NOTE__: This library does not support creating settings and inputs. It goes so
 
 ## Installation ##
 
-Clone this repository to your project, the include the `loader.php` file. See class files for use examples.
+Clone this repository to your project, then include the `loader.php` file. See class files for use examples.
 
 ## Contributing ##
 
