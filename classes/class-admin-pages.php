@@ -75,7 +75,7 @@
 		),
 	);
 
-	new RenVentura\SimpleAdminUI\AdminPages\Admin_Pages( $pages );
+	new \RenVentura\SimpleAdminUI\AdminPages\Admin_Pages( $pages );
 
  */
 

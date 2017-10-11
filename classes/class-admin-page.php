@@ -6,7 +6,7 @@
 
 /** Example use:
 
-	$settings_page = new RenVentura\SimpleAdminUI\Admin_Page( array(
+	$settings_page = new \RenVentura\SimpleAdminUI\Admin_Page( array(
 		'slug' => 'my-settings-page', // slug identifier for this page
 		'page_title' => __( 'My Settings Page', 'text-domain' ), // page title
 		'menu_title' => __( 'My Settings Page', 'text-domain' ), // menu title
