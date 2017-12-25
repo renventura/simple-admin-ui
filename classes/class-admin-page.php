@@ -54,7 +54,7 @@ class Admin_Page {
 			$icon,
 			$default_columns,
 			$body_content,
-			$parent_sluf,
+			$parent_slug,
 			$sortable,
 			$collapsable,
 			$contains_media,
@@ -321,7 +321,7 @@ class Admin_Page {
 		) );
 
 		// Handle meta boxes
-		wp_enqueue_script( 'postbox' ); 
+		wp_enqueue_script( 'postbox' );
 	}
 
 
@@ -334,9 +334,10 @@ class Admin_Page {
 
 		 	<?php do_action( "simple_admin_ui_top_{$this->slug}" ); ?>
 
-			<?php screen_icon(); ?>
-
-			<h2><?php echo esc_html( $this->page_title );?></h2>
+			<h1>
+				<?php echo esc_html( $this->page_title );?>
+				<?php do_action( 'simple_admin_ui_page_title' ); ?>
+			</h1>
 
 			<?php do_action( "simple_admin_ui_before_form_{$this->slug}" ); ?>
 
